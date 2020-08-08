@@ -25,7 +25,8 @@ def join_nested_strings(src)
   row += 1
   
   end
-  
+
+joined_strings = joined_strings - " "
 return joined_strings
   
 end
