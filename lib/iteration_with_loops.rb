@@ -26,7 +26,7 @@ def join_nested_strings(src)
   
   end
 
-joined_strings = joined_strings - " "
+joined_strings = joined_strings.chop
 return joined_strings
   
 end
