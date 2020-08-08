@@ -13,7 +13,7 @@ def join_nested_strings(src)
     
     if src[row][item].class == String
       
-      joined_strings = src[row][item] + " "
+      joined_strings = joined_strings + " " + src[row][item]
       
     end
     
@@ -26,7 +26,7 @@ def join_nested_strings(src)
   
   end
 
-joined_strings = joined_strings.chop
+joined_strings
 return joined_strings
   
 end
