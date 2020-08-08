@@ -11,7 +11,7 @@ def join_nested_strings(src)
   
     while item < src[row].length do
     
-    if src[row][item].class == Strings
+    if src[row][item].class == String
       
       joined_strings = src[row][item] + " "
       
