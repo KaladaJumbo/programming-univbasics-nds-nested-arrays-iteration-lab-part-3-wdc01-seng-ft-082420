@@ -5,4 +5,23 @@ def join_nested_strings(src)
   row = 0 
   joined_strings = ""
   
+  while row < src.length do
+  
+  item = 0 
+  
+    while item < src[row].length do
+    
+    
+    
+    item += 1 
+    
+    end
+  
+  
+  row += 1
+  
+  end
+  
+return joined_strings
+  
 end
